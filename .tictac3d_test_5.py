@@ -24,7 +24,7 @@ class TestTicTacToe(unittest.TestCase):
                               [ 0,-1, 0]]])
         player_first = 1
         
-        expected_winner = -1
+        expected_winner = 1
        
         ttt = TicTacToe3D(board=testcase.copy(), player=player_first)
         b,p = ttt.play_game()
